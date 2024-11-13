@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nurul's</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <!-- Logo di Kiri -->
+            <a class="navbar-brand" href="#">
+                <img src="images/ogol.png" Logo" width="100" height="50" class="d-inline-block align-text-top">
+            </a>
+
+            <!-- Toggler untuk mode mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links Navbar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Makanan <span>Favorit</span><br>The Nurul's</h1>
+            <p style="font-family: Arial, Helvetica, sans-serif;">Seblak ceker setan, rasa kesurupan, siapa berani coba?
+                Yuk rasakan sensasinya di seblak mega jeder.
+            </p>
+        </div>
+        <img src="images/seblak.jpg" alt="Food" class="img-fluid hero-img">
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="container my-5">
+        <h1 class="text-center">Menu</h1>
+        <p class="text-muted text-center">Paket hemat paling laris</p>
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-6 menu-card">
+                <div class="card">
+                    <img src="images/bakso.jpg" class="img-fluid mx-auto d-block" alt="Mie Bakso Bleduk">
+                    <div class="card-body">
+                        <h5 class="card-title">Mie Bakso Bleduk</h5>
+                        <button class="btn btn-warning">Harga 12k</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 menu-card">
+                <div class="card">
+                    <img src="images/seblak1.jpg" class="img-fluid mx-auto d-block" alt="Seblak Jeder">
+                    <div class="card-body">
+                        <h5 class="card-title">Seblak Jeder</h5>
+                        <button class="btn btn-warning">Harga 12k</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 menu-card">
+                <div class="card">
+                    <img src="images/ayam-geprek.jpg" class="img-fluid mx-auto d-block" alt="Ayam Geprek">
+                    <div class="card-body">
+                        <h5 class="card-title">Ayam Geprek</h5>
+                        <button class="btn btn-warning">Harga 10k</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 menu-card">
+                <div class="card">
+                    <img src="images/ikan-bakar.jpg" class="img-fluid mx-auto d-block" alt="Ikan Bakar">
+                    <div class="card-body">
+                        <h5 class="card-title">Ikan Bakar</h5>
+                        <button class="btn btn-warning">Harga 15k</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h1 class="text-center mb-4">About</h1>
+        <div class="row text-center d-flex align-items-center">
+            <!-- Kolom teks -->
+            <div class="col-md-6">
+                <div class="p ">
+                    <p>Mega jeder menawarkan kuliner pedas dengan rasa yang menggugah, kami menggunakan sambal spesial
+                        untuk menciptakan sensasi pedas kesurupan yang selalu membuat ketagihan. Rasakan nikmat pedasnya
+                        hanya di Mega Jeder. Kenikmatan pedasnya bukan hanya sekedar rasa, tetapi juga pengalaman penuh
+                        sensasi yang membuat ketagihan untuk kembali, setiap rasa pedas autentik dan tak terlupakan.</p>
+                </div>
+            </div>
+            <!-- Kolom gambar -->
+            <div class="col-md-6">
+                <img src="images/halaman.jpg" alt="Tempat Makan" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h3>Our Location</h3>
+            <p>Jl. Surikah, Purwodadi, Kec. Trimurjo, Kab. Lampung Tengah</p>
+            <div class="footer-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.9639580833327!2d105.28388357401015!3d-5.109511451755008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40bb55366e7657%3A0x9e1064439ecfe2a6!2sAyam%20Geprek%20Mega!5e0!3m2!1sid!2sid!4v1731493069249!5m2!1sid!2sid"
+                    width="100%" height="300px" style="border-radius: 20px;  filter: invert(100%);" allowfullscreen=""
+                    loading="lazy">></iframe>
+            </div>
+            <p class="text-center"> <i class="fab fa-instagram"></i>Instagram | <i class="fab fa-whatsapp"></i>WhatsApp:
+                +62xxxxxxx</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
